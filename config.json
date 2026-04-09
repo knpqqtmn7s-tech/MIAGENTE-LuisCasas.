@@ -1,0 +1,28 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "./workspace",
+      "model": "gemini-3.1-flash-lite-preview",
+      "provider": "gemini",
+      "maxTokens": 4096,
+      "temperature": 0.7,
+      "maxToolIterations": 20
+    }
+  },
+  "providers": {
+    "gemini": {
+      "apiKey": "AIzaSyB-wcbIRMmh0DRqZ68je4wEKt1Gwq9AFMs"
+    }
+  },
+  "tools": {
+    "web_fetch": {
+      "enabled": true
+    },
+    "web_search": {
+      "enabled": true
+    },
+    "exec": {
+      "enabled": true
+    }
+  }
+}
