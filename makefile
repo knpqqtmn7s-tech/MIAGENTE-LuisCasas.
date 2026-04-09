@@ -1,4 +1,4 @@
-Noejecutar-BORRAR:
+setup:
 	python3 -m venv .venv
 	source .venv/bin/activate Linux/MacOS Windows: .venv\Scripts\activate
 	pip install nanobot-ai 
