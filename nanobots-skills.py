@@ -1,14 +1,3 @@
-"""
-PROYECTO: Skills mediante Contexto (Nanobot)
-Agente de clima usando nanobot-ai
-
-Estructura requerida:
-├── nanobots-skills.py  (este archivo)
-├── config.json         (configuración con tools habilitadas)
-├── AGENTS.md           (instrucciones del agente)
-└── TOOLS.md            (documentación de herramientas)
-"""
-
 import asyncio
 import json
 import shutil
